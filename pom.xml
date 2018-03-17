@@ -8,7 +8,7 @@
 		<version>7.1.2.0</version>
 	</parent>
 	<artifactId>site-settings-error-pages</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>bundle</packaging>
 	<name>Site Settings - Customize error pages</name>
 	<description>Module to customize the most exposed error pages (400,401,404,500)</description>
@@ -36,4 +36,10 @@
 			<url>https://devtools.jahia.com/nexus/content/groups/public</url>
 		</repository>
 	</repositories>
+
+  <scm>
+    <connection>scm:svn:https://devtools.jahia.com/svn/jahia/tags/1_0</connection>
+    <developerConnection>scm:svn:https://devtools.jahia.com/svn/jahia/tags/1_0</developerConnection>
+    <url>https://devtools.jahia.com/svn/jahia/tags/1_0</url>
+  </scm>
 </project>
